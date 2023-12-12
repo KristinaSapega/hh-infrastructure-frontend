@@ -30,6 +30,7 @@ module.exports = {
         "@typescript-eslint",
         "react"
     ],
+    "ignorePatterns": ["build/**/*.js"],
     "rules": {
         // enable additional rules
         "indent": ["error", 4],
