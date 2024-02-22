@@ -24,7 +24,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "upload": "PUBLIC_URL=/hh-infrastructure-frontend react-scripts build && cd .. && git add my-app/build && git commit -m 'update gh-pages' && git push origin main && git subtree push --prefix my-app/build origin gh-pages",
+    "upload": "PUBLIC_URL=/hh-infrastructure-frontend react-scripts build && git add build && git commit -m 'update gh-pages' && git push origin main && git subtree push --prefix build origin gh-pages",
     "lint": "eslint . && stylelint '**/*.css'"
   },
   "eslintConfig": {
